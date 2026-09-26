@@ -1,0 +1,59 @@
+{
+  "folders": [
+    {
+      "name": "SKY — Smart Knowledge & Security Intelligence",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.git": true,
+      "**/.DS_Store": true,
+      "**/node_modules": true,
+      "**/.next": true,
+      "**/out": true,
+      "**/build": true,
+      "**/*.tsbuildinfo": true,
+      "**/.eslintcache": true,
+            "src/lib/ai/providers/fallback.ts.map": true
+    },
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/.next": true,
+      "**/out": true,
+      "**/build": true,
+      "**/*.tsbuildinfo": true,
+      "src/lib/ai/providers/fallback.ts": true
+    },
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.stickyScroll.enabled": true,
+    "editor.minimap.enabled": false,
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "typescript.enablePromptUseWorkspaceTsdk": true,
+    "typescript.preferences.importModuleSpecifier": "non-relative",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "tailwindCSS.experimental.classRegex": [
+      ["cva\\(([^)]+)\\)", "[\"'`]([^\"'`]+)"],
+      ["cn\\(([^)]+)\\)", "[\"'`]([^\"'`]+)"]
+    ],
+    "workbench.colorTheme": "Default Dark Modern",
+    "workbench.iconTheme": "vs-seti",
+    "workbench.statusBar.visible": true,
+    "workbench.tree.indent": 12,
+    "explorer.confirmDelete": false,
+    "explorer.compactFolders": false,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true
+  },
+  "tasks": "tasks.json",
+  "launch": "launch.json",
+  "extensions": "extensions.json"
+}

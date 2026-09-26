@@ -1,0 +1,16 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "bradlc.vscode-tailwindcss",
+    "ms-vscode.vscode-typescript-next",
+    "ms-vscode-atom-keybindings",
+    "prisma.prisma",
+    "wayou.vscode-todo-highlight",
+    "firsttris.vscode-jest-runner",
+    "mgmcdermott.vscode-language-babel",
+    "redhat.vscode-yaml",
+    "csstools.postcss",
+    "eamodio.gitlens"
+  ]
+}
